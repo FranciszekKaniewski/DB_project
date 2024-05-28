@@ -4,7 +4,7 @@ Franciszek Kaniewski (Uniwersytet Mikołaja Kopernika w Toruniu inf.inż 1y.)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/username/repo/releases)
 
-## 📖 Spis treści
+## 📖 Table of Contents
 
 - [Project description](#Project-description)
 - [Project assumption](#Project-assumption)
