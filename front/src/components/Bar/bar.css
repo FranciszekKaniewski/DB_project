@@ -1,0 +1,22 @@
+.bar{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+}
+.changeView{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+}
+.title>p{
+    width: 70px;
+}
+.arrows{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}

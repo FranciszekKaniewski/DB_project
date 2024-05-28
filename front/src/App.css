@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.table{
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  height: 900px;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+.table-week{
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  min-height: 500px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+.table-day{
+  width: 600px;
+  margin: 0 auto;
+  min-height: 300px;
+}
+.table-day>.day{
+  width: 600px;
+  margin: 20px auto;
+  min-height: 300px;
+}
+.table-week>.day{
+  min-height: 500px;
+  flex-grow: 1;
+}
+input{
+  text-align: center;
+}
+button{
+  margin: 10px;
+}
+h3{
+  cursor: pointer;
+}

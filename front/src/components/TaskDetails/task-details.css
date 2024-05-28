@@ -1,0 +1,19 @@
+.task-details{
+    background-color: #333;
+    border-radius: 20px;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    width: 400px;
+    max-height: 600px;
+}
+.task-details>form>p{
+    margin: 10px;
+    margin-bottom: 0;
+}
+.task-details>i{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}

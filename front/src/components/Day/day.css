@@ -1,0 +1,8 @@
+.day{
+    /*flex-grow: 1;*/
+    flex-basis: 12.5%;
+    box-shadow: 0 0 1px #fff;
+    position: relative;
+    overflow: hidden;
+    height: 25%;
+}

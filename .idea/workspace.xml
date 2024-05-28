@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60cc5007-54a6-4604-96df-c912c49ca7d6" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DB_uni.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/ormconfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/dto/create-task.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/dto/update-task.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/entities/task.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/sql.querry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/task.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/task.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/task.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/task/task.validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/utils/getWeek.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/AddTask/AddTask.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Bar/Bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Bar/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Day/Day.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Day/day.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/DayView/DayView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Month/Month.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Reminders/Reminders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Task/Task.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Task/task.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/TaskDetails/TaskDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/TaskDetails/task-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/WeekView/WeekView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/use-http.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/addDays.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/dayFilter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/feach.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/getWeek.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2gBnbOZBM2YO2p7nlsVrIqd5d03" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Work/Desktop/My ideas/Projekty/DB_uni",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\Work\\Desktop\\My ideas\\Projekty\\DB_uni\\front\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60cc5007-54a6-4604-96df-c912c49ca7d6" name="Changes" comment="" />
+      <created>1715179908860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715179908860</updated>
+      <workItem from="1715179909997" duration="4146000" />
+      <workItem from="1715805202332" duration="4026000" />
+      <workItem from="1716368992010" duration="7064000" />
+      <workItem from="1716394597103" duration="4168000" />
+      <workItem from="1716401133676" duration="5706000" />
+      <workItem from="1716459073756" duration="4416000" />
+      <workItem from="1716469005905" duration="10136000" />
+      <workItem from="1716492737328" duration="6264000" />
+      <workItem from="1716536583988" duration="1268000" />
+      <workItem from="1716545998617" duration="8113000" />
+      <workItem from="1716554266652" duration="1115000" />
+      <workItem from="1716559375281" duration="8986000" />
+      <workItem from="1716571933492" duration="11127000" />
+      <workItem from="1716626445518" duration="13879000" />
+      <workItem from="1716644522924" duration="1892000" />
+      <workItem from="1716664221709" duration="4836000" />
+      <workItem from="1716712554154" duration="2240000" />
+      <workItem from="1716752342128" duration="12425000" />
+      <workItem from="1716796562094" duration="552000" />
+      <workItem from="1716810949292" duration="3587000" />
+      <workItem from="1716818460234" duration="5114000" />
+      <workItem from="1716836869257" duration="6926000" />
+      <workItem from="1716892818591" duration="168000" />
+    </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1716796694389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716796694389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/back" />
+    </ignored-roots>
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
+  </component>
+</project>
