@@ -1,6 +1,13 @@
 # 🌟 Calendar scheduler
 Franciszek Kaniewski (Uniwersytet Mikołaja Kopernika w Toruniu inf.inż 1y.)
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeORM](https://img.shields.io/badge/TypeORM-FF5733?style=for-the-badge&logo=typeorm&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/username/repo/releases)
 
@@ -18,17 +25,17 @@ Calendar scheduler is a simple app that helps you organize your tasks in calenda
 ## 🚀 Project assumption
 
 - **Adding tasks to the database:**
-  - ***Hard Task (h):***
-    - `unlimited time`
-    - `only one at a time`
-  - ***Soft Task (s):***
-    - `unlimited time`,
-    - `duration > 6h`
-    - `requires 15 minutes free time`
+    - ***Hard Task (h):***
+        - `unlimited time`
+        - `only one at a time`
+    - ***Soft Task (s):***
+        - `unlimited time`,
+        - `duration > 6h`
+        - `requires 15 minutes free time`
 - **Getting tasks from the database:**
-   - `For single month`
-   - `For single week`
-   - `For single day`
+    - `For single month`
+    - `For single week`
+    - `For single day`
 - **Ability to edit tasks**
 - **Ability to make tasks done/undone**
 - **Ability to remove tasks**
