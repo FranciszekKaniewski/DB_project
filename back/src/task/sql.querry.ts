@@ -58,7 +58,7 @@ export const sqlQuery ={
                 WHERE type = 'soft'
             )
             SELECT 
-                14 + TIMESTAMPDIFF(MINUTE, ?, ?) - 
+                15 + TIMESTAMPDIFF(MINUTE, ?, ?) - 
              COALESCE((SELECT total_busy_minutes FROM busy_minutes WHERE type = 'hard'), 0) -
              (SELECT soft_task_count * 15 FROM soft_tasks) - TIMESTAMPDIFF(MINUTE, ?, ?) AS free_minutes;`
     ,

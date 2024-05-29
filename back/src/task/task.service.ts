@@ -71,9 +71,11 @@ export class TaskService {
     const startDate = getWeek({year,month,day}).mondayDate;
     const endDate = getWeek({year,month,day}).sundayDate;
 
+    console.log(startDate,endDate)
+
     return await Task.findBy({
       endDate: MoreThanOrEqual(`${startDate.year}-${Number(startDate.month) > 9 ? startDate.month : '0'+startDate.month}-${Number(startDate.day) > 9?startDate.day:'0'+startDate.day}`),
-      startDate: LessThan(`${endDate.year}-${Number(endDate.month)+1 > 9 ? Number(endDate.month)+1:'0'+(Number(endDate.month)+1)}-${Number(endDate.day) > 9 ? Number(endDate.day)+'T23:59:59.999Z':'0'+(Number(endDate.day))}`)
+      startDate: LessThan(`${endDate.year}-${Number(endDate.month) > 9 ? Number(endDate.month):'0'+(Number(endDate.month))}-${Number(endDate.day) > 9 ? Number(endDate.day)+'T23:59:59.999Z':'0'+(Number(endDate.day))+'T23:59:59.999Z'}`)
     });
   }
 
@@ -113,7 +115,12 @@ export class TaskService {
     return { isSuccess: true, task };
   }
 
-  remove(id: string) {
-    return Task.delete({ id });
+  async remove(id: string) {
+    const del = await Task.delete({ id })
+    if(del.affected<1){
+      return { isSuccess: false, message: `Can't remove task ${id}`};
+    }
+
+    return { isSuccess: true, message: `Task ${id} removed!`};;
   }
 }
